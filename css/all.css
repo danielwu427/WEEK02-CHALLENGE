@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jcsb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fs-5 {
+  font-size: 20px;
+}
+
+.fs-6 {
+  font-size: 24px;
+}
+
+.fs-8 {
+  font-size: 32px;
+}
+
+.fs-16 {
+  font-size: 64px;
+}
+
+.fs-32 {
+  font-size: 128px;
+}
+
+.c-primary {
+  color: #00FFA3;
+}
+
+.c-white {
+  color: white;
+}
+
+.c-black {
+  color: black;
+}
+
+.bgc-black {
+  background-color: black;
+}
+
+.bgc-white {
+  background-color: white;
+}
+
+.w-57 {
+  width: 57%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.mb-19 {
+  margin-bottom: 76px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.light-style {
+  background-color: white;
+  color: black;
+}
+
+.dark-style {
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-color: #fff;
+  padding: 40px 0px;
+}
+header ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .container {
+  gap: 24px;
+}
+
+.greeting {
+  padding: 160px 0px;
+}
+.greeting h1 {
+  text-align: right;
+}
+
+.introduce {
+  color: white;
+}
+.introduce .container {
+  gap: 24px;
+  padding: 160px 0;
+}
+
+.intro-text ul {
+  gap: 16px;
+}
+
+.intro-img ul {
+  gap: 24px;
+}
+
+.about .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 160px 0px;
+}
+
+.about-ability {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 49%;
+  gap: 24px;
+}
+.about-ability li {
+  width: 48%;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.0784313725);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.0784313725);
+}
+
+.about-text {
+  width: 40.5%;
+}
+
+.contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(#050014), to(rgba(1, 2, 30, 0.89)));
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact .container {
+  padding: 96px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-text {
+  width: 50.6%;
+}
+.contact-text img {
+  width: 12%;
+}
+
+.social {
+  gap: 20px;
+}
+
+.project {
+  padding: 160px 0px;
+}
+
+.project h2 {
+  text-align: right;
+}
+
+.project-img {
+  gap: 24px;
+}
+
+.project-info {
+  gap: 24px;
+}
+
+.l-side {
+  width: 32%;
+}
+
+.r-side {
+  width: 66%;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: black;
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */

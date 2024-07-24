@@ -1,0 +1,182 @@
+*,*::after,*::before{
+    box-sizing: border-box;;
+}
+//All
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body{
+    font-family: 'Bruno Ace SC',serif;
+    line-height: 1.5;
+}
+
+
+//Common
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.fs-5{
+    font-size: $fs-small;
+}
+.fs-6{
+    font-size: $fs-middle;
+}
+.fs-8{
+    font-size: $fs-large;
+}
+.fs-16{
+    font-size: 64px;
+}
+.fs-32{
+    font-size: $h1-style;
+}
+.c-primary{
+    color: $primary-color; 
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.bgc-black{
+    background-color: black;
+}
+.bgc-white{
+    background-color: white;
+}
+.w-57{
+    width: 57%;
+}
+.w-40{
+    width: 40%;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.mb-7{
+    margin-bottom: 28px;
+}
+.mb-9{
+    margin-bottom: 36px;
+}
+.mb-19{
+    margin-bottom: 76px;
+}
+// component
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.light-style{
+    background-color: white;
+    color: black;
+}
+.dark-style{
+    background-color: black;
+    color: white;
+}
+// header
+header{
+    background-color: #fff;
+    padding:40px 0px;
+    ul{
+        align-items: center;
+    }
+}
+
+// banner
+.banner .container{
+    gap: 24px;     
+}
+.greeting {
+    padding: 160px 0px;
+    h1{
+        text-align: right;
+    }
+} 
+
+// introduce
+.introduce {
+    color: white;
+    .container{
+        gap: 24px;
+        padding: 160px 0;
+    }
+}
+.intro-text ul{
+    gap: 16px;
+}
+.intro-img ul{
+    gap: 24px;
+}
+
+// about
+.about .container{
+    align-items: center;
+    padding: 160px 0px;
+}
+.about-ability{
+    flex-wrap: wrap;
+    width: 49%;
+    gap: 24px;
+    li{
+        width: 48%;
+        padding: 16px;
+        border: 1px solid #E3E3E3;
+        box-shadow: 4px 4px 4px #00000014;
+    }
+}
+.about-text{
+    width: 40.5%;
+}
+
+// contact
+.contact{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    .container{
+        padding: 96px 0;
+        align-items: center;
+    }
+}
+.contact-text{
+    width: 50.6%;
+    img{
+        width:12%;
+    }
+}
+.social{
+    gap: 20px;
+}
+
+//project
+.project{
+    padding: 160px 0px;
+}
+.project h2{
+    text-align: right;
+}
+
+.project-img {
+    gap: 24px;
+}
+.project-info{
+    gap: 24px;
+}
+.l-side{
+    width: 32%;
+}
+.r-side{
+    width: 66%;
+}
+// footer
+footer{
+    padding: 40px 0;
+    background-color: black;
+    text-align: center;
+}
