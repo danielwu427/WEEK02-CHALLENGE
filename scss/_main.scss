@@ -8,6 +8,10 @@ body{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 //Common
 .container{
@@ -83,23 +87,27 @@ body{
 }
 // header
 header{
-    background-color: #fff;
     padding:40px 0px;
+    background-color: black;
     ul{
         align-items: center;
     }
 }
 
+.nav li a{
+    color:#D1D1D1;
+}
 // banner
 .banner .container{
     gap: 24px;     
 }
 .greeting {
     padding: 160px 0px;
-    h1{
-        text-align: right;
-    }
 } 
+.banner-strong{
+    text-align: right;
+}
+
 
 // introduce
 .introduce {
