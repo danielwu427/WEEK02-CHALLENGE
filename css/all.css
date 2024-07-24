@@ -181,6 +181,8 @@ header ul {
 
 .banner .container {
   gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 32px;
 }
 
 .greeting {
@@ -276,6 +278,19 @@ header ul {
 
 .r-side {
   width: 66%;
+}
+
+.project-info-text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 footer {

@@ -99,7 +99,9 @@ header{
 }
 // banner
 .banner .container{
-    gap: 24px;     
+    gap: 24px;
+    padding-top:72px;
+    padding-bottom:32px;
 }
 .greeting {
     padding: 160px 0px;
@@ -181,6 +183,11 @@ header{
 }
 .r-side{
     width: 66%;
+}
+.project-info-text{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
 }
 // footer
 footer{
